@@ -5,6 +5,8 @@ import "./App.css";
 import Navbar from "./components/Navbar.jsx";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
+import Footer from "./components/Footer";
+import Maincontent from "./components/Maincontent";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Navbar />
       <Header />
       <Intro />
+      <Maincontent />
+      <Footer />
     </div>
   );
 }

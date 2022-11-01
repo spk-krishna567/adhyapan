@@ -7,10 +7,12 @@
 }
 .cards{
     margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-around;
 }
 .card{
+    
     flex-wrap: wrap;
     border-radius: 20px;
      background: rgba(255, 255, 255, 0.1);
@@ -21,13 +23,13 @@
      overflow: hidden;
 }
 .card img{
-    width: 300px;
+    width: 250px;
     height:auto;
 }
 .card_dis{
-    font-family:  Montserrat;
+    font-family:  inter;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
 }
 hr{

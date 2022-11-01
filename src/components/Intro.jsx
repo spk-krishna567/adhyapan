@@ -17,13 +17,17 @@ const Intro = () => {
         </div>
         <div className="card">
           <img src={cardlogo2} alt="study" />
-          <p className="card_dis">mentors are available to assist u</p>
+          <p className="card_dis">
+            mentors are available to
+            <br /> assist u
+          </p>
         </div>
         <div className="card">
           <img src={cardlogo3} alt="study" />
           <p className="card_dis">u can learn face to face</p>
         </div>
       </div>
+      <hr />
     </div>
   );
 };
