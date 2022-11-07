@@ -26,4 +26,11 @@
   display: flex;
  font-family: inter;
  font-weight: 400;
+ float: left;
+}
+.buttons{
+    display: flex;
+    
+    align-items:center;
+   
 }

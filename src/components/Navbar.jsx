@@ -12,7 +12,14 @@ const Navbar = () => {
           <p>home</p>
           <p>blog</p>
         </div>
-        <div className=""></div>
+        <div className="buttons">
+          <a href="/login">
+            <button type="submit">log in</button>
+          </a>
+          <button type="submit" href="">
+            sign up
+          </button>
+        </div>
       </nav>
     </React.Fragment>
   );
